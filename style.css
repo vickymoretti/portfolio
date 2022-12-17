@@ -8,3 +8,17 @@ h2,
 p {
 	text-align: center;
 }
+
+.about-container {
+	display: flex;
+	flex-direction: column;
+	gap: 1000px;
+}
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+	color: red;
+}
