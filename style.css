@@ -32,6 +32,15 @@ h3 {
 	margin: 0;
 }
 
+p {
+	background: var(--secondary-color);
+	padding: 20px;
+	border-radius: 4px;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+}
+
 .navigation-links {
 	display: flex;
 	justify-content: center;
@@ -65,20 +74,11 @@ h3 {
 
 .about-paragraphs {
 	display: flex;
-	margin: 30px;
+	margin: 30px 0;
 }
 
 .about-paragraphs p {
 	margin: 10px;
-}
-
-p {
-	background: var(--secondary-color);
-	padding: 20px;
-	border-radius: 4px;
-	font-size: 18px;
-	line-height: 1.5;
-	text-align: center;
 }
 
 .email-link {
@@ -87,4 +87,8 @@ p {
 	color: var(--primary-color);
 	font-size: 28px;
 	text-decoration: none;
+}
+
+.email-link:hover {
+	text-decoration: underline;
 }
