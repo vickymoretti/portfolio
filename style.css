@@ -6,8 +6,7 @@
 
 body {
 	font-family: "Anek Devanagari", sans-serif;
-	margin: 0 auto;
-	max-width: 100%;
+
 	padding-top: 100px;
 }
 
@@ -103,4 +102,14 @@ h3 {
 	font-size: 20px;
 	text-align: center;
 	padding-top: 30px;
+}
+
+.aplication-link {
+	border-radius: 4px;
+	padding: 20px 15px;
+	text-decoration: none;
+	cursor: pointer;
+	background: var(--primary-color);
+	box-shadow: var(--box-shadow);
+	color: white;
 }
