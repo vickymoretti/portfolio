@@ -113,3 +113,33 @@ h3 {
 	box-shadow: var(--box-shadow);
 	color: white;
 }
+
+@media (max-width: 600px) {
+	h1 {
+		font-size: 50px;
+	}
+
+	h3 {
+		font-size: 20px;
+		margin-top: 10px;
+	}
+
+	.presentation {
+		font-size: 18px;
+	}
+	.contact-me,
+	.email-link {
+		font-size: 20px;
+	}
+
+	.images {
+		display: none;
+	}
+
+	.aplication-link {
+		text-align: center;
+	}
+	.navigation-links {
+		margin-top: 22px;
+	}
+}
