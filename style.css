@@ -7,7 +7,7 @@
 body {
 	font-family: "Anek Devanagari", sans-serif;
 
-	padding-top: 100px;
+	padding-top: 100px 0;
 }
 
 h1 {
@@ -117,11 +117,13 @@ h3 {
 @media (max-width: 600px) {
 	h1 {
 		font-size: 50px;
+		text-align: center;
 	}
 
 	h3 {
 		font-size: 20px;
 		margin-top: 10px;
+		text-align: center;
 	}
 
 	.presentation {
@@ -136,10 +138,21 @@ h3 {
 		display: none;
 	}
 
-	.aplication-link {
-		text-align: center;
-	}
 	.navigation-links {
 		margin-top: 22px;
+	}
+
+	.introduction {
+		font-size: 40px;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	.project-link {
+		display: block;
+		text-align: center;
+		margin: 0 20px;
 	}
 }
